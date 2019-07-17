@@ -18,5 +18,5 @@ Touchscreen
 -----------
 Hello!
 <video width="240" height="360" controls>
-    <source src="../TouchscreenDemo.mp4" type="video/mp4">
+    <source src="../TouchscreenDemo.mp4" type="video/mp4"/>
 </video>
