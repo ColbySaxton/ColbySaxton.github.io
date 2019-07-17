@@ -18,5 +18,5 @@ Touchscreen
 -----------
 Hello!
 <video class="tab" controls>Your browser does not support the &lt;video&gt; tag.
-  <source src="TouchscreenDemo.mp4"/>
+  <source src="/../TouchscreenDemo.mp4"/>
 </video>
