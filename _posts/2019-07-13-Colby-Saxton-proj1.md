@@ -17,6 +17,6 @@ This Lamp was made in a course at CWRU called Introduction to Connected Devices.
 Touchscreen
 -----------
 Hello!
-<video class="tab" controls>Your browser does not support the &lt;video&gt; tag.
+<video controls="controls">
   <source src="/../TouchscreenDemo.mp4"/>
 </video>
