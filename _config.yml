@@ -1,0 +1,4 @@
+name: Colby Saxton, Undergrad at CWRU
+markdown: kramdown
+permalink: /Projects/:year/:month/:day/:title
+#plugins: jekyll-sitemap
