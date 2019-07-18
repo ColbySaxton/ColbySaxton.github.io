@@ -29,7 +29,7 @@ Here is a demonstration:
 
 
 
-Sub/Sub Connectivity protocol
+Pub/Sub Connectivity protocol
 -----------------------------
 This lamp uses a pub/sub communication model where it can publish and subscribe to certain topics within a centralized broker.
 
@@ -63,11 +63,11 @@ Here is a demonstration:
 
 Facial Recognition Login
 ------------------------
-For the final project for this course, I decided to make a facial recognition login feature on the lamp. This login uses openCV, Pi-Face-Recognition and Kivy libraries. Additionally, I used a PiCamera and the PiCamera library to take images of a user attempting to login. Then I send the images to the backend where it is compared to a model trained to my face.
+For the final project for this course, I decided to make a facial recognition login feature on the lamp. This login uses openCV, Pi-Face-Recognition and Kivy libraries. Additionally, I used a PiCamera and the PiCamera library to take images of a user attempting to login. After taking a picture, I send the image to the backend where it is compared to a model trained to my face.
 
 When I am not logged in, a message prevents me from using the lamp, however after logging in, the lamp becomes usable.
 
-Here is a demonstration (be patient while it logs in!):
+Here is a demonstration (be patient while it logs in):
 <video width="720" height="440" controls="controls">
   <source src="/../FaceRecognitionDemo.mp4"/>
 </video>
