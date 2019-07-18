@@ -16,6 +16,7 @@ This Lamp was made in a course at CWRU called Introduction to Connected Devices.
 <br />
 <br />
 <br />
+
 Touchscreen
 -----------
 This lamp uses a PiFTF 2.8" capacitive touchscreen.
@@ -29,6 +30,7 @@ Here is a demonstration:
 <br />
 <br />
 <br />
+
 Pub/Sub Connectivity protocol
 -----------------------------
 This lamp uses a pub/sub communication model where it can publish and subscribe to certain topics within a centralized broker.
@@ -37,6 +39,7 @@ This uses libraries called MQTT, Python Paho, JSON messages, and MQTT-Daemon wit
 <br />
 <br />
 <br />
+
 Web Application
 ---------------
 The Web Application made uses an NGINX/uWSGI web server to run off my Amazon EC2 instance. Additionally, Paho JS and JSON files was used to communication messages between the website and any connected lamps.
@@ -50,6 +53,7 @@ Here is a demonstration of the web application:
 <br />
 <br />
 <br />
+
 iOS Application
 ---------------
 The iOS application was developed in XCode using Swift and Bluetooth Low Energy to connect and control the lamp from an iOS device.
@@ -61,6 +65,7 @@ Here is a demonstration:
 <br />
 <br />
 <br />
+
 Facial Recognition Login
 ------------------------
 For the final project for this course, I decided to make a facial recognition login feature on the lamp. This login uses openCV, Pi-Face-Recognition and Kivy libraries. Additionally, I used a PiCamera and the PiCamera library to take images of a user attempting to login. After taking a picture, I send the image to the backend where it is compared to a model trained to my face.
