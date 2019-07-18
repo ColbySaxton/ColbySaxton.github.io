@@ -47,3 +47,27 @@ Here is a demonstration of the web application:
 <video width="720" height="440" controls="controls">
   <source src="/../WebAppDemo.mp4"/>
 </video>
+
+
+
+iOS Application
+---------------
+The iOS application was developed in XCode using Swift and Bluetooth Low Energy to connect and control the lamp from an iOS device.
+
+Here is a demonstration:
+<video width="720" height="440" controls="controls">
+  <source src="/../iPhoneDemo.mp4"/>
+</video>
+
+
+
+Facial Recognition Login
+------------------------
+For the final project for this course, I decided to make a facial recognition login feature on the lamp. This login uses openCV, Pi-Face-Recognition and Kivy libraries. Additionally, I used a PiCamera and the PiCamera library to take images of a user attempting to login. Then I send the images to the backend where it is compared to a model trained to my face.
+
+When I am not logged in, a message prevents me from using the lamp, however after logging in, the lamp becomes usable.
+
+Here is a demonstration (be patient while it logs in!):
+<video width="720" height="440" controls="controls">
+  <source src="/../FaceRecognitionDemo.mp4"/>
+</video>
