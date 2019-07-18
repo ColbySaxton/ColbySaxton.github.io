@@ -14,6 +14,8 @@ This project uses ansible as a method to install the professor's correct solutio
 
 This Lamp was made in a course at CWRU called Introduction to Connected Devices.
 
+
+
 Touchscreen
 -----------
 This lamp uses a PiFTF 2.8" capacitive touchscreen.
@@ -25,11 +27,15 @@ Here is a demonstration:
   <source src="/../TouchscreenDemo.mp4"/>
 </video>
 
+
+
 Sub/Sub Connectivity protocol
 -----------------------------
 This lamp uses a pub/sub communication model where it can publish and subscribe to certain topics within a centralized broker.
 
 This uses libraries called MQTT, Python Paho, JSON messages, and MQTT-Daemon within an Amazon EC2 instance to achieve this framework. This allows multiple lamps to be connected to the same broker.
+
+
 
 Web Application
 ---------------
