@@ -12,5 +12,5 @@ While my partner investigated the challenges of Lattice Encryption moving forwar
 I describe in more detail the applications and encryption schemas used within each application in the full paper below.
 
 <div class="blurb">
-	<embed src="../LatticeEncryptionReport.pdf" type="application/pdf" width="100%" height="600px" />
+	<embed src="/../LatticeEncryptionReport.pdf" type="application/pdf" width="100%" height="600px" />
 </div>
